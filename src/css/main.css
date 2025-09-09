@@ -1,1 +1,30 @@
-/* Your CSS here. */
+body {
+  margin: 0;
+  height: 100vh;                
+  display: flex;               
+  justify-content: center;      
+  align-items: center;         
+}
+
+.card {
+  width: 1000px;
+  padding: 40px 48px;
+  background: linear-gradient(135deg, #f6d365, #fda085); 
+  color: #fff;
+  text-align: center;
+  border-radius: 16px;  
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.photo {                        
+  height: 150px;
+  width: 150px;
+  border-radius: 16px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.bio {
+  max-width: 70ch;
+  text-align: center;
+  margin: 0 auto; 
+}
